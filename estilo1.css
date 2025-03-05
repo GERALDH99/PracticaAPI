@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: gainsboro;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -13,5 +14,6 @@ body {
     border-radius: 50px;
     background-color: darkgray;
     color:white;
+
   
 }

@@ -138,13 +138,13 @@ fromEvent(search, "click").subscribe(() => {
               console.log(typeof idDato);
 
               if (idDato > 0 || idDato <= 5) {
-                html = `<p>ID: ${datos[idDato-1].id} </p>
+                html = `<p>ID: ${datos[idDato - 1].id} </p>
                           <p>Titulo: ${datos[idDato - 1].title}</p>
                           <p>URL: ${datos[idDato - 1].url} </p> `;
-                          cleaning();
+                cleaning();
               } else {
                 html = "<p>Peticion Incorrecta</p>";
-                
+
               }
 
               container.insertAdjacentHTML("beforeend", html);
@@ -257,7 +257,7 @@ fromEvent(search, "click").subscribe(() => {
         } else {
           html = "<p>Peticion Incorrecta</p>";
         }
-
+        cleaning();
         container.insertAdjacentHTML("beforeend", html);
 
         limpiar.addEventListener("click", cleaning);
