@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   
+   <link rel="stylesheet" href="estilo1.css">
 
 
 
@@ -16,13 +16,25 @@
         <input class="input" type="number"></input>
         <button class="search">Buscar</button>
         <button class="clear" onclick="cleaning()">Limpiar</button>
+       
+        <form>
+          <p>Selecciona tu progreso de ejecucion</p>
+          <input type="radio" id="CallBack" name="llamada" value="CallBack">
+          <label for="Promesa">CallBack</label><br>
+          <input type="radio" id="Promesa" name="llamada" value="Promesa">
+          <label for="Promesa">Promesa</label><br>
+          <input type="radio" id="AsyncAwait" name="llamada" value="AsyncAwait">
+          <label for="AsyncAwait">AsyncAwait</label><br>
+          <input type="radio" id="Observables" name="llamada" value="Observables">
+          <label for="Observables">Observables</label><br>
+      </form>
+
 
         <!-- <p>ID: </p>
         <p>Titulo: </p>
         <p>Titulo: URL </p> -->
     </div>
     <script src="https://unpkg.com/rxjs@6.6.7/bundles/rxjs.umd.min.js"></script>
-
   </body>
   <script src="script.js"></script>
 </html>

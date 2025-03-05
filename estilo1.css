@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    text-align: center;
+
+}
+
+.container {
+    border: black solid;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: darkgray;
+    color:white;
+  
+}
